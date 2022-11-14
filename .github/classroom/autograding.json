@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 - reloj datos de entrada 1  10 2 30  3  3 4",
+      "setup": "g++ -g -o main main.cpp Reloj.cpp",
+      "run": "./main",
+      "input": "1\n10\n2\n30\n3\n3\n1\n80\n1\n0\n2\n59\n3\n3\n4",
+      "output": "10:00\n10:30\n10:31\n10:32\n10:32\n00:32\n00:59\n01:00\n01:01\n",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 100
+    }
+  ]
+}
+
