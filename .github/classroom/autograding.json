@@ -4,7 +4,7 @@
       "name": "Test 1 - Avance1 Nota - la , solo es separador de losdatos de entrada: 8,11,1,AA1,Tec21,2000,Aprendizaje,200,20,8,3,Tec 21 Objetos,8,4,10000,8,0",
       "setup": "g++ -g -o main main.cpp Reloj.cpp",
       "run": "./main",
-      "input": "8\n11\n1\nAA1\nTec21 2000\nAprendizaje\n200\n20\n8\n3\nTec 21 Objetos\n8\n4\n10000\n8\n0",
+      "input": "8\n11\n1\nAA1\nTec21\n2000\nAprendizaje\n200\n20\n8\n3\nTec 21 Objetos\n8\n4\n10000\n8\n0",
       "output": "AAA,ITESM,1000,Aprendizaje,100,8\nGraduacion,1,100\nAA1,Tec 21,2000,Aprendizaje,200,20\nAA1,Tec 21 Objetos,2000,Aprendizaje,200,20\nAA1,Tec 21 Objetos,10000,Aprendizaje,200,20\n",
       "comparison": "included",
       "timeout": 2,
